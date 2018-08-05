@@ -76,8 +76,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="code1.h" />
-    <ClInclude Include="testCode1.h" />
+    <ClInclude Include="MyString.h" />
+    <ClInclude Include="MyStringTest.h" />
+    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="SingletonTest.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />

@@ -1,7 +1,8 @@
-#include"testCode1.h"
+#include"MyStringTest.h"
+#include "SingletonTest.h"
 
 int main(){
-	std::string str;
-	testCode1();
+	//testMyString();
+	testSingleton();
 	return 0;
 }

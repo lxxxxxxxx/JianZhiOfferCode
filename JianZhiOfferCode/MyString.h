@@ -3,6 +3,7 @@
 * 时间：2018-08-04 11:33
 * 作者：李祥
 * 来源：剑指offer P24
+* 难点：赋值操作符参数为常量引用，返回值为*this，返回类型为引用类型（为了连续赋值）
 */
 
 
@@ -11,7 +12,7 @@
 #include <iostream>
 #include <string>
 
-#define INCREASE_STEP 10
+#define INCREASE_STEP 16
 
 class MyString{
 public:
@@ -52,21 +53,21 @@ bool MyString::operator==(const MyString& str){
 }
 
 MyString& MyString::operator=(const MyString& str){
-	if (*this == str){
-		return *this;
-	}
-	length = str.size();
-	capacity = str.capacity;
-	if (m_pData != nullptr){
-		delete[] m_pData;
-		m_pData = nullptr;
-	}
-	m_pData = new char[capacity];
-	memset(m_pData, 0, capacity);
-	if (str.data() != nullptr){
-		strcpy_s(m_pData, length + 1, str.data());
+	if (this != &str){
+		length = str.size();
+		capacity = str.capacity;
+		if (m_pData != nullptr){
+			delete[] m_pData;
+			m_pData = nullptr;
+		}
+		m_pData = new char[capacity];
+		memset(m_pData, 0, capacity);
+		if (str.data() != nullptr){
+			strcpy_s(m_pData, length + 1, str.data());
+		}
 	}
 	return *this;
+
 }
 
 MyString::~MyString(){

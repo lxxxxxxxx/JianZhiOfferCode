@@ -7,9 +7,9 @@
 
 
 
-#include "code1.h"
+#include "MyString.h"
 
-void testCode1(){
+void testMyString(){
 	MyString myStr1("123456");
 	MyString myStr2(myStr1);
 	MyString myStr3 = myStr2;
@@ -26,9 +26,7 @@ void testCode1(){
 		<< myStr4.data() << std::endl;
 
 	MyString myStr5;
-	std::cout << "myStr;\n  length:" << myStr5.size() << "\n  content:"
-		<< myStr5.data() << std::endl;
 	myStr5 = myStr5;
-	std::cout << "myStr;\n  length:" << myStr5.size() << "\n  content:"
+	std::cout << "myStr5;\n  length:" << myStr5.size() << "\n  content:"
 		<< myStr5.data() << std::endl;
 }

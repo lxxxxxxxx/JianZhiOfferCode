@@ -16,10 +16,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="code1.h">
+    <ClInclude Include="MyStringTest.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString.h">
       <Filter>header</Filter>
     </ClInclude>
-    <ClInclude Include="testCode1.h">
+    <ClInclude Include="Singleton.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonTest.h">
       <Filter>test</Filter>
     </ClInclude>
   </ItemGroup>
