@@ -76,10 +76,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="FindInVector2D.h" />
     <ClInclude Include="MyString.h" />
-    <ClInclude Include="MyStringTest.h" />
     <ClInclude Include="Singleton.h" />
-    <ClInclude Include="SingletonTest.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />

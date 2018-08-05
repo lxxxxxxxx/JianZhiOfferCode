@@ -1,8 +1,9 @@
-#include"MyStringTest.h"
-#include "SingletonTest.h"
-
+#include"MyString.h"
+#include "Singleton.h"
+#include "FindInVector2D.h"
 int main(){
-	//testMyString();
+	testMyString();
 	testSingleton();
+	testFindInVector2D();
 	return 0;
 }
