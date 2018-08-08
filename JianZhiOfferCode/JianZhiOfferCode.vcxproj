@@ -78,7 +78,9 @@
   <ItemGroup>
     <ClInclude Include="FindInVector2D.h" />
     <ClInclude Include="MyString.h" />
+    <ClInclude Include="ReplaseBlankSpace.h" />
     <ClInclude Include="Singleton.h" />
+    <ClInclude Include="test.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />

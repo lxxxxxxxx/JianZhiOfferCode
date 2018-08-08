@@ -22,6 +22,12 @@
     <ClInclude Include="FindInVector2D.h">
       <Filter>header</Filter>
     </ClInclude>
+    <ClInclude Include="test.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="ReplaseBlankSpace.h">
+      <Filter>header</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
