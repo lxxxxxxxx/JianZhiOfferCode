@@ -22,10 +22,16 @@
     <ClInclude Include="FindInVector2D.h">
       <Filter>header</Filter>
     </ClInclude>
-    <ClInclude Include="test.h">
+    <ClInclude Include="ReplaseBlankSpace.h">
       <Filter>header</Filter>
     </ClInclude>
-    <ClInclude Include="ReplaseBlankSpace.h">
+    <ClInclude Include="DeleteChildOfTree.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="CaculateVolume.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintListFromTheEnd.h">
       <Filter>header</Filter>
     </ClInclude>
   </ItemGroup>

@@ -76,11 +76,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CaculateVolume.h" />
     <ClInclude Include="FindInVector2D.h" />
     <ClInclude Include="MyString.h" />
+    <ClInclude Include="PrintListFromTheEnd.h" />
     <ClInclude Include="ReplaseBlankSpace.h" />
     <ClInclude Include="Singleton.h" />
-    <ClInclude Include="test.h" />
+    <ClInclude Include="DeleteChildOfTree.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
