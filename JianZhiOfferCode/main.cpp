@@ -10,12 +10,12 @@
 
 
 int main(){
-	//testMyString();
-	//testSingleton();
-	//testFindInVector2D();
-	//TestReplaseBlanckSpace();
-	//TestMergeTwoOrderArray();
-	//TestCaculateVolume();
+	testMyString();
+	testSingleton();
+	testFindInVector2D();
+	TestReplaseBlanckSpace();
+	TestMergeTwoOrderArray();
+	TestCaculateVolume();
 
 	TestPrintListFromTheEnd();
 

@@ -47,6 +47,8 @@ void PrintListFromTheEnd2(node *arg){
 
 
 void TestPrintListFromTheEnd(){
+	std::cout << "\n------------------------------------test PrintListFromTheEnd------------------------------------" << std::endl;
+
 	node *head;
 	node *tmp = nullptr;
 	node *now = nullptr;
