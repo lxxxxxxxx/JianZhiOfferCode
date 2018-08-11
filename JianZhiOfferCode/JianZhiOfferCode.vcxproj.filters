@@ -8,19 +8,31 @@
     <Filter Include="header">
       <UniqueIdentifier>{397bb9a1-1707-4884-83f5-18fce540575e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="test">
-      <UniqueIdentifier>{30627051-bf6a-4f69-acb1-594cb498a75e}</UniqueIdentifier>
-    </Filter>
     <Filter Include="main">
       <UniqueIdentifier>{a9d4e181-9c88-469b-83b4-1684382a2c6b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="code1.h">
+    <ClInclude Include="MyString.h">
       <Filter>header</Filter>
     </ClInclude>
-    <ClInclude Include="testCode1.h">
-      <Filter>test</Filter>
+    <ClInclude Include="Singleton.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="FindInVector2D.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="ReplaseBlankSpace.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteChildOfTree.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="CaculateVolume.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintListFromTheEnd.h">
+      <Filter>header</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
